@@ -3,10 +3,10 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 
 import os
 # import configparser
-# import logging
-# import redis
+import logging
+import redis
 
-# global redis1
+global redis1
 
 def main():
     # Load your token and create an Updater for your Bot
